@@ -16,13 +16,12 @@ npm i @evzonic/tiny-circular-progress-bar
 ## Usage
 
 ```js
-const tiny = require("@bamblehorse/tiny");
+import { CircleProgress } from "evzonic/tiny-circular-progress-bar";
 
-tiny("So much space!");
-//=> "Somuchspace!"
+new CircleProgress(".progress", {
+  max: 100,
+  value: 60,
 
-tiny(1337);
-//=> Uncaught TypeError: Tiny wants a string!
-//    at tiny (<anonymous>:2:41)
-//    at <anonymous>:1:1
+  textFormat: "percent",
+});
 ```
