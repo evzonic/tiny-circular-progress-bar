@@ -1,6 +1,6 @@
 {
   "name": "@evzonic/tiny-circular-progress-bar",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Creates a tiny circular progress bar",
   "license": "MIT",
   "repository": "evzonic/tiny-circular-progress-bar",
