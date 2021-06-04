@@ -10,7 +10,7 @@ Creates a tiny circular progress bar.
 ## Install
 
 ```
-npm i @evzonic/tiny-circular-progress-bar
+npm i tiny-circular-progress-bar
 ```
 
 ## Usage
@@ -20,11 +20,11 @@ import React from "react";
 import { useEffect } from "react";
 import * as CircleProgress from "tiny-circular-progress-bar";
 
-  useEffect(() => {
-    new CircleProgress("progress_bar_class_name", {
-      max: 100,
-      value: 60,
-      textFormat: "percent",
-    });
-  }, []);
+useEffect(() => {
+  new CircleProgress("progress_bar_class_name", {
+    max: 100,
+    value: 60,
+    textFormat: "percent",
+  });
+}, []);
 ```
