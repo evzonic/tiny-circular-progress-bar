@@ -1,14 +1,15 @@
 {
-  "name": "@evzonic/tiny-circular-progress-bar ",
+  "name": "@evzonic/tiny-circular-progress-bar",
   "version": "2.0.0",
-  "description": "Removes all spaces from a string",
+  "description": "Creates a tiny circular progress bar",
   "license": "MIT",
-  "repository": "bamblehorse/tiny",
+  "repository": "evzonic/tiny-circular-progress-bar",
   "main": "index.js",
   "keywords": [
     "tiny",
     "npm",
     "package",
-    "bamblehorse"
+    "circular",
+    "progress bar"
   ]
 }
