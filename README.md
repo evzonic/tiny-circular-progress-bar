@@ -16,12 +16,15 @@ npm i @evzonic/tiny-circular-progress-bar
 ## Usage
 
 ```js
-import { CircleProgress } from "evzonic/tiny-circular-progress-bar";
+import React from "react";
+import { useEffect } from "react";
+import * as CircleProgress from "tiny-circular-progress-bar";
 
-new CircleProgress(".progress", {
-  max: 100,
-  value: 60,
-
-  textFormat: "percent",
-});
+  useEffect(() => {
+    new CircleProgress("progress_bar_class_name", {
+      max: 100,
+      value: 60,
+      textFormat: "percent",
+    });
+  }, []);
 ```
