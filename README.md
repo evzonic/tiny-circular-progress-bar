@@ -2,8 +2,8 @@
 
 The tiniest circular progress bar
 
-[![npm (scoped)](https://img.shields.io/npm/v/@bamblehorse/tiny.svg)](https://www.npmjs.com/package/@bamblehorse/tiny)
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@bamblehorse/tiny.svg)](https://www.npmjs.com/package/@bamblehorse/tiny)
+![npm (scoped)](https://img.shields.io/npm/v/@evzonic/tiny-circular-progress-bar)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@evzonic/tiny-circular-progress-bar)
 
 Creates a tiny circular progress bar.
 
